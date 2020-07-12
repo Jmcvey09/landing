@@ -8,12 +8,15 @@
 
 .container-fluid {
     padding: 1% 15% 10% 3%;
+    background: transparent url("../images/blacksmoke.png") no-repeat left 100%;
+
 }
 
 /* Navbar Section */
 
 .navbar {
     font-family: 'Galada', cursive;
+    position: relative;
 }
 
 .navbar-brand {}
@@ -22,6 +25,11 @@
     color: #17252a;
 
 }
+.smoke-title {
+    width: 100%;
+
+}
+
 
 /* Title Section */
 
@@ -36,6 +44,7 @@
     text-align: center;
     font-family: 'Galada', cursive;
     margin-bottom: 0;
+    
 }
 
 .small-heading {
@@ -44,15 +53,16 @@
     font-family: 'Galada', cursive;
     font-size: 1.4rem;
     line-height: 1;
+    z-index: 1;
 }
 
 .h3-header {
     width: 60%;
     text-align: center;
     padding: 5%;
-    font-size: 1.5rem;
+    font-size: rem;
     line-height: 1.5;
-    color: #2B7A78;
+    color: #FEFFFF;
     font-family: 'Roboto', sans-serif;
     display: inline-block;
 }
