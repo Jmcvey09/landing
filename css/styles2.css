@@ -1,0 +1,113 @@
+/* Title Section  */
+
+#title {
+    background: #3AAFA9;
+    color: #FEFFFF;
+    text-align: center;
+}
+
+.container-fluid {
+    padding: 1% 15% 10% 3%;
+}
+
+/* Navbar Section */
+
+.navbar {
+    font-family: 'Galada', cursive;
+}
+
+.navbar-brand {}
+
+.nav-item {
+    color: #17252a;
+
+}
+
+/* Title Section */
+
+.home {
+    width: auto;
+}
+
+.big-heading {
+    padding: 10% 30% 5%;
+    font-size: 4rem;
+    line-height: 1.5;
+    text-align: center;
+    font-family: 'Galada', cursive;
+}
+
+.h3-header {
+    text-align: center;
+    padding: 5%;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #2B7A78;
+    font-family: 'Roboto', sans-serif;
+}
+
+hr {
+    width: 60%;
+    margin: 18px auto 24px auto;
+    border-color: #2F2D2E;
+    border-color: rgba(150, 150, 150, .1);
+}
+
+.social {
+    padding: 0%;
+    margin-bottom: 0em;
+}
+
+.list {
+    padding: 3%;
+    font-size: 3rem;
+}
+
+.social>li {
+    display: inline-block;
+}
+
+.social li a {
+    color: #DEF2F1;
+}
+
+.social li a:hover {
+    color: #2B7A78;
+}
+
+/* About section */
+
+#about-info {
+    background: #2B7A78;
+    color: #FEFFFF;
+    text-align: center;
+}
+
+.about-icon {
+    padding: 5% 5% 1%;
+    font-size: 3rem;
+    color: #17252a;
+}
+
+.h3-header2 {
+    padding: 0% 3% 2%;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: #DEF2F1;
+    font-family: 'Galada', cursive;
+}
+
+.about-p {
+    font-family: 'Roboto', sans-serif;
+    color: #17252A;
+}
+
+/* Footer Section */
+
+footer {
+    background: #17252A;
+    color: #FEFFFF;
+    text-align: center;
+    font-family: 'Galada', cursive;
+    padding: 5%;
+}
