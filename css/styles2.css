@@ -30,20 +30,31 @@
 }
 
 .big-heading {
-    padding: 10% 30% 5%;
+    padding: 10% 30% 0%;
     font-size: 4rem;
     line-height: 1.5;
     text-align: center;
     font-family: 'Galada', cursive;
+    margin-bottom: 0;
+}
+
+.small-heading {
+    text-align: center;
+    padding-top: 0;
+    font-family: 'Galada', cursive;
+    font-size: 1.4rem;
+    line-height: 1;
 }
 
 .h3-header {
+    width: 60%;
     text-align: center;
     padding: 5%;
     font-size: 1.5rem;
     line-height: 1.5;
     color: #2B7A78;
     font-family: 'Roboto', sans-serif;
+    display: inline-block;
 }
 
 hr {
