@@ -56,6 +56,12 @@
     z-index: 1;
 }
 
+#clock {
+    font-size: 36px;
+    display: block;
+    padding: 5px 0px;
+}
+
 .h3-header {
     width: 60%;
     text-align: center;
