@@ -5,15 +5,27 @@ function updateClock() {
     var currentSeconds = currentTime.getSeconds();
 
     // Add a 0 if # is under 10 instead of leaving a blank space
-    currentMinutes = ( currentMinutes < 10 ? "0" : "") + currentMinutes;
-    currentSeconds = ( currentSeconds < 10 ? "0" : "") + currentSeconds;
+    currentMinutes = (currentMinutes < 10 ? "0" : "") + currentMinutes;
+    currentSeconds = (currentSeconds < 10 ? "0" : "") + currentSeconds;
 
     // Conversion to 12-hour time instead of 24-hour time
-    var timeOfDay = ( currentHours < 12) ? "AM" : "PM";
-    currentHours = ( currentHours > 12) ? currentHours - 12 : currentHours;
-    currentHours = ( currentHours == 0) ? 12 : currentHours;
+    var timeOfDay = (currentHours < 12) ? "AM" : "PM";
+    currentHours = (currentHours > 12) ? currentHours - 12 : currentHours;
+    currentHours = (currentHours == 0) ? 12 : currentHours;
 
     document.getElementById('clock').innerHTML =
         currentHours + ":" + currentMinutes + ":" + currentSeconds + " " + timeOfDay;
 }
-setInterval(function(){updateClock()}, 1000);
+setInterval(function () {
+    updateClock()
+}, 1000);
+
+//animated nav
+const menu = document.querySelector('.menu');
+const trigger = document.querySelector('.trigger');
+
+function toggle() {
+  menu.classList.toggle('menu--open');
+}
+
+trigger.addEventListener('click', toggle);

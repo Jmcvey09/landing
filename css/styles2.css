@@ -141,3 +141,16 @@ footer {
     font-family: 'Galada', cursive;
     padding: 5%;
 }
+
+.menu {
+    box-sizing: border-box;
+    margin-left: -320px;
+    width: 320px;
+    background-color: #CCC;
+    transition: all .3s;
+    padding: 1rem;
+  }
+  
+  .menu--open {
+    margin-left: 0;
+  }
