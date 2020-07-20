@@ -17,19 +17,19 @@
 
 .navbar {
     font-family: 'Galada', cursive;
-    position: relative;
+    position: static;
+
 }
 
 .navbar-brand {}
 
 .nav-item {
     color: #17252a;
-
+    background: #17252A;
+    margin: 10%;
 }
-.smoke-title {
 
-
-}
+.smoke-title {}
 
 
 /* Title Section */
@@ -45,7 +45,7 @@
     text-align: center;
     font-family: 'Galada', cursive;
     margin-bottom: 0;
-    
+
 }
 
 .small-heading {
@@ -143,14 +143,7 @@ footer {
 }
 
 .menu {
-    box-sizing: border-box;
-    margin-left: -320px;
-    width: 320px;
-    background-color: #CCC;
-    transition: all .3s;
-    padding: 1rem;
-  }
-  
-  .menu--open {
-    margin-left: 0;
-  }
+    width: 50%;
+    margin: 10% 30%;
+    
+}
