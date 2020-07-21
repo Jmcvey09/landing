@@ -24,8 +24,9 @@
 .navbar-brand {}
 
 .nav-item {
+    padding: 0 5%;
     color: #DEF2F1;
-    background: #17252A;
+    
    
 }
 

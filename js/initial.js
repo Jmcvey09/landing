@@ -29,9 +29,9 @@ var typed = new Typed('.typewrap1 h2 .typewrap', {
      */
     strings: [
       'Front-end Developer',
-      'Front-end Developer',
       'HTML',
       'CSS',
+      'Bootstrap 5',
       'JavaScript'
     ],
     stringsElement: null,
@@ -39,17 +39,17 @@ var typed = new Typed('.typewrap1 h2 .typewrap', {
     /**
      * @property {number} typeSpeed type speed in milliseconds
      */
-    typeSpeed: 350,
+    typeSpeed: 50,
   
     /**
      * @property {number} startDelay time before typing starts in milliseconds
      */
-    startDelay: 0,
+    startDelay: 10,
   
     /**
      * @property {number} backSpeed backspacing speed in milliseconds
      */
-    backSpeed: 350,
+    backSpeed: 50,
   
     /**
      * @property {boolean} smartBackspace only backspace what doesn't match the previous string
@@ -64,14 +64,14 @@ var typed = new Typed('.typewrap1 h2 .typewrap', {
     /**
      * @property {number} backDelay time before backspacing in milliseconds
      */
-    backDelay: 200,
+    backDelay: 1000,
   
     /**
      * @property {boolean} fadeOut Fade out instead of backspace
      * @property {string} fadeOutClass css class for fade animation
      * @property {boolean} fadeOutDelay Fade out delay in milliseconds
      */
-    fadeOut: false,
+    fadeOut: true,
     fadeOutClass: 'typed-fade-out',
     fadeOutDelay: 500,
   
@@ -89,7 +89,7 @@ var typed = new Typed('.typewrap1 h2 .typewrap', {
      */
     showCursor: true,
     cursorChar: '|',
-    autoInsertCss: false,
+    autoInsertCss: true,
   
     /**
      * @property {string} attr attribute for typing
