@@ -4,12 +4,14 @@
     background: #3AAFA9;
     color: #FEFFFF;
     text-align: center;
+    
 }
 
 .container-fluid {
     padding: 1% 15% 10% 3%;
     background: transparent url("../images/blacksmoke.png") no-repeat center 100%;
     background-size: 100%;
+   height: 100vh;
 
 }
 
@@ -114,6 +116,7 @@ hr {
     background: #2B7A78;
     color: #FEFFFF;
     text-align: center;
+    height: 100vh;
 }
 
 .about-icon {
