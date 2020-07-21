@@ -24,9 +24,9 @@
 .navbar-brand {}
 
 .nav-item {
-    color: #17252a;
+    color: #DEF2F1;
     background: #17252A;
-    margin: 10%;
+   
 }
 
 .smoke-title {}
@@ -49,19 +49,21 @@
 }
 
 .small-heading {
+    margin: 0 20%;
     text-align: center;
     padding-top: 0;
     font-family: 'Galada', cursive;
     font-size: 1.4rem;
     line-height: 1;
     z-index: 1;
+    
 }
 
 #clock {
     font-size: 1rem;
     display: block;
     padding: 5px 0px;
-    color: #17252a;
+    color: #FEFFFF;
     font-family: 'Galada', cursive;
 }
 
@@ -143,7 +145,33 @@ footer {
 }
 
 .menu {
-    width: 50%;
-    margin: 10% 30%;
-    
+    color: #DEF2F1;
 }
+
+
+.typewriter h2 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+  }
+  
+  
+ 
+  
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 400px }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: blue; }
+  }
